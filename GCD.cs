@@ -1,8 +1,6 @@
 using System;
-class Program
-{
-    static void Main(string[] args)
-    {
+class Program{
+    static void Main(string[] args){
         int num1 = 0;
         int num2 = 0;
         int GCD  = 0;
@@ -17,12 +15,10 @@ class Program
         Console.WriteLine("\nThe Greatest Common Divisor is: "+GCD);
     }
 
-    static int GetGcd(int number1, int number2)
-    {
+    static int GetGcd(int number1, int number2){
         int rem = 0;
 
-        while (number2 > 0)
-        {
+        while (number2 > 0){
             rem = number1 % number2;
             number1 = number2;
             number2 = rem;
