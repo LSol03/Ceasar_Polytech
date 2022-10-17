@@ -11,7 +11,7 @@ class Program {
             if((char)chArray[i] == (char)chArray[j]){
                 sum++;
             }else{
-                Console.WriteLine($"{chArray[i]}->{sum} ");
+                Console.WriteLine($"{chArray[i]}->{sum}");
                 break;
             }
         }
