@@ -82,8 +82,7 @@ int main(int argc, char* argv[])
   //now reply the client with the same data 
   //gets_s(msg, BUFLEN); 
    
-  //server.SendDatagram(msg, (int)strlen(msg), (struct sockaddr*)&si_other, slen); 
- 
+  
  } 
  
  return 0; 
