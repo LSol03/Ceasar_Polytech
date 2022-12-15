@@ -3,7 +3,6 @@
 #include <iostream> 
 #include <stdio.h> 
 using namespace std; 
- 
 void sizer(int n) 
 { 
  if (n == 0) 
@@ -29,8 +28,6 @@ int main(int argc, char* argv[])
  memset((char*)&si_other, 0, sizeof(si_other)); 
  si_other.sin_family = AF_INET; 
  
- //si_other.sin_port = htons(PORT); 
- //si_other.sin_addr.S_un.S_addr = inet_addr(SERVER); 
  
  if (1 == argc) 
  { 
